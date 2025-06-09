@@ -1,1 +1,45 @@
-about coming soon...
+<div class="about-container">
+    <div class="about">
+        <h1>About me</h1>
+        <span class="line"></span>
+    </div>
+    <div class="description">
+        <p>
+            A passionate full stack developer with strong expertise in design patterns, REST APIs, automation and low level developpement.
+            Proven track record in delivering cutting-edge solutions, including API integration,
+            third-party libraries, and performance optimization. <br> Adept at debugging to ensure high-quality,
+            responsive apps and An agile collaborator committed to staying current with industry trends.<br>
+            If you're seeking a skilled fullstack developer to breathe life into your project and exceed your expectations, 
+            I am here to collaborate and create magic together. Reach out, and let's transform your vision into a reality!
+        </p>
+    </div>
+    <div class="about">
+        <h1>What i'm doing</h1>
+        <span class="line"></span>
+    </div>
+    <div class="expertise">
+        <app-expertise-card
+            class="expertise-card"
+            [title]="'Frontend Development'"
+            [description]="'Building modern, responsive user interfaces and experiences.'"
+        />
+
+        <app-expertise-card
+            class="expertise-card"
+            [title]="'Backend Development'"
+            [description]="'Creating scalable server-side logic and robust APIs.'"
+        />
+
+        <app-expertise-card
+            class="expertise-card"
+            [title]="'Low Level Development'"
+            [description]="'Programming close to hardware for maximum performance.'"
+        />
+
+        <app-expertise-card
+            class="expertise-card"
+            [title]="'DevOps & Automation'"
+            [description]="'Streamlining development and deployment through smart automation.'"
+        />
+    </div>
+</div>
