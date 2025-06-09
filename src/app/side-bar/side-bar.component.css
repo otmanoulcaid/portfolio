@@ -1,0 +1,59 @@
+.side-bar-container {
+    min-width: 160px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid var(--card-border);
+    background-color: var(--side-main-background);
+}
+
+img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.name {
+    text-align: center;
+    margin-block: 15px;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.title {
+    width: fit-content;
+    margin: 0px auto;
+    padding: 5px 10px;
+    background-color: var(--cards);
+    border-radius: 15px;
+    border: 0.5px solid var(--card-border);
+}
+
+.separator {
+    width: 80%;
+    margin: 40px auto;
+    height: 3px;
+   background-color: var(--card-border);
+    border-radius: 50%;
+}
+
+.icon-section {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+
+.platforms {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.platforms svg {
+    fill: var(--card-border);
+    width: 20px;
+    height: 20px;
+}

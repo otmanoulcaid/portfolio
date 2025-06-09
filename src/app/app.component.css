@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-inline: 15px 10px;
+    width: 20%;
+}
+
+.main {
+    margin: 0px auto;
+    width: 75%;
+}
+
+@media (max-width: 750px)
+{
+    .container {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .side-bar {
+        height: auto;
+        width: 80%;
+    }
+    .main {
+        width: 90%;
+    }
+}
