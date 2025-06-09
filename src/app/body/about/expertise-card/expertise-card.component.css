@@ -1,3 +1,7 @@
-.expertise-title {
-    width: 100%;
+.card {
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    background-color: var(--cards);
+    padding: 10px;
+    height: 120px;
 }

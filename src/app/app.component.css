@@ -9,14 +9,16 @@
     height: 100vh;
     margin-inline: 15px 10px;
     width: 20%;
+    min-width: 250px;
 }
 
 .main {
     margin: 0px auto;
     width: 75%;
+    min-width: 700px;
 }
 
-@media (max-width: 750px)
+@media (max-width: 900px)
 {
     .container {
         justify-content: space-around;
@@ -24,6 +26,7 @@
     }
 
     .side-bar {
+        margin: 0 auto;
         height: auto;
         width: 80%;
     }
