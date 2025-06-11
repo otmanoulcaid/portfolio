@@ -1,4 +1,31 @@
-<div class="container">
-    <h4>resume coming soon...</h4>
-    <h4>check back later</h4>
+<div class="body-scroll-container">
+  <app-title [title]="'Resume'"/>
+
+  <h2 class="title">Studies</h2>
+  <div class="timeline">
+      @for (study of studies; track study.school) {
+          <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                  <h6>{{ study.school }}</h6>
+                  <p>{{ study.diploma }}</p>
+                  <span class="timeline-date">{{ study.year }}</span>
+                </div>
+            </div>
+        }
+    </div>
+    
+    <h2 class="title">Skills</h2>
+    <div class="skills-container">
+    @for (skillGroup of skills; track skillGroup.category) {
+        <div class="skill-group">
+        <h3>{{ skillGroup.category }}</h3>
+        <ul class="skill-list">
+            @for (item of skillGroup.items; track item) {
+            <li class="skill-item">{{ item }}</li>
+            }
+        </ul>
+        </div>
+    }
+    </div>
 </div>

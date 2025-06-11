@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Project",
+        "organization": "FSDM",
+        "period": "2024",
+        "projectTitle": "Development of a Disease Diagnosis System",
+        "technologies": ["python", "TypeScript", "docker"],
+        "description": "Design and development of a web application that predicts users' diseases based on their symptoms."
+    },
+    {
+        "title": "Project",
+        "organization": "FSDM",
+        "period": "2025",
+        "projectTitle": "Development of a Class Diagram Generator Application",
+        "technologies": ["java", "swing"],
+        "description": "Development of a Swing application that generates a class diagram for a given Java project."
+    },
+    {
+        "title": "Project",
+        "organization": "FSDM",
+        "period": "2025",
+        "projectTitle": "Development of a Zoo Management Application",
+        "technologies": ["xQuery", "javascript", "C++", "Docker", "Nginx"],
+        "description": "Development of a web application to add, modify, and delete animals in a zoo."
+    },
+    {
+        "title": "Project",
+        "organization": "1337",
+        "period": "2025",
+        "projectTitle": "Development of a Web Server",
+        "technologies": ["C++", "Linux"],
+        "description": "Development of a monothreaded web server to serve both static and dynamic content for multiple simultaneous requests."
+    },
+    {
+        "title": "Project",
+        "organization": "1337",
+        "period": "2025",
+        "projectTitle": "Development of a Gaming and Chat Platform",
+        "technologies": ["CSS", "JavaScript", "TypeScript", "Node.js", "Fastify", "Redis", "SQLite", "Docker", "Nginx", "Make GNU"],
+        "description": "Design and development of a SPA web gaming application that allows users to play <b>ping pong</b> and communicate with each other during matches and tournaments."
+    }
+]

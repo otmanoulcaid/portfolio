@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Programming Languages",
+    "items": ["C", "C++", "Java", "JavaScript"]
+  },
+  {
+    "category": "Jakarta Enterprise Edition (JEE)",
+    "items": [
+      "3-tier Architecture", "MVC2 Model", "Servlets and JSP", "DAO Pattern",
+      "Spring / Spring Boot Framework", "JPA", "Hibernate", "Tomcat Administration"
+    ]
+  },
+  {
+    "category": "Web Technologies",
+    "items": [
+      "HTML", "CSS", "JavaScript", "TypeScript", "Node.js", "Fastify", "Angular"
+    ]
+  },
+  {
+    "category": "DevOps Engineering",
+    "items": [
+      "Maven", "Git", "GitHub", "GitLab", "Jenkins", "JUnit", "Shell Scripting", "Nginx Administration"
+    ]
+  },
+  {
+    "category": "XML Technologies",
+    "items": [
+      "XML Standard", "XML Databases", "XML Parsers (DOM, SAX)", "DTD",
+      "XSD (XML Schema)", "XSLT", "XPath", "XQuery"
+    ]
+  }
+]

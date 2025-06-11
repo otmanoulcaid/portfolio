@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TitleComponent } from '../title/title.component';
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  imports: [TitleComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })

@@ -1,8 +1,5 @@
-<div class="about-container">
-    <div class="about">
-        <h1>About me</h1>
-        <span class="line"></span>
-    </div>
+<div class="body-scroll-container">
+    <app-title [title]="'About Me'" />
     <div class="description">
         <p>
             A passionate full stack developer with strong expertise in design patterns, REST APIs, automation and low level developpement.
@@ -13,10 +10,7 @@
             I am here to collaborate and create magic together. Reach out, and let's transform your vision into a reality!
         </p>
     </div>
-    <div class="about">
-        <h1>What i'm doing</h1>
-        <span class="line"></span>
-    </div>
+    <app-title [title]="'What I\'m Doing'" />
     <div class="expertise">
         <app-expertise-card
             class="expertise-card"

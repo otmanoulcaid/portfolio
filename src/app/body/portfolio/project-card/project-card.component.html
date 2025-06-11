@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-header">
+        <h3>{{ project.projectTitle }}</h3>
+        <span class="organization">{{ project.organization }} • {{ project.period }}</span>
+    </div>
+    <div class="card-body">
+        <p>{{ project.description }}</p>
+        <div class="technologies">
+            <span *ngFor="let tech of project.technologies" class="tech">{{ tech }}</span>
+        </div>
+    </div>
+</div>

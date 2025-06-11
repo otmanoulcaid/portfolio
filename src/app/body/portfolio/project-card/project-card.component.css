@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.organization {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card-body {
+    margin-top: 0.5rem;
+}
+
+.technologies {
+    margin-top: 1rem;
+}
+
+.tech {
+    background-color: #f1f1f1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 0.85rem;
+}

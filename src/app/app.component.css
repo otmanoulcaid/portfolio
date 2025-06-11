@@ -3,34 +3,41 @@
 }
 
 .side-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: auto;
     margin-inline: 15px 10px;
     width: 20%;
     min-width: 300px;
 }
 
 .main {
-    margin: 0px auto;
-    width: 75%;
+    margin-left: 30%;
+    margin-right: 10px;
+    width: 70%;
     min-width: 400px;
 }
 
-@media (max-width: 900px)
-{
+@media (max-width: 1100px) {
     .container {
         justify-content: space-around;
         flex-direction: column;
     }
 
     .side-bar {
+        position: static;
+        transform: none;
         margin: 0 auto;
         height: auto;
         width: 80%;
     }
+
     .main {
         width: 90%;
+        margin: 0 auto;
     }
 }

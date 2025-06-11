@@ -3,8 +3,9 @@
     --side-main-background: rgb(30, 30, 30);
     --card-border: rgb(88, 88, 88);
     --cards: rgb(50, 50, 50);
-    --text: rgb(200, 200, 200);
+    --text: rgb(255, 255, 255);
     --highlight: #F15025;
+    /* --highlight: #69d0ff; */
 }
 
 * {
@@ -24,6 +25,9 @@ body {
     background-color: var(--body-background);
     color: var(--text);
     line-height: 1.6;
+}
+.body-scroll-container {
+    margin: 10px 30px;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
